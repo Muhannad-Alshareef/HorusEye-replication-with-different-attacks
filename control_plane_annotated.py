@@ -1,6 +1,3 @@
-#what are kitsune and magnifier???
-#so what is horuseye really?
-
 from fcntl import F_SETFL
 import os
 import pickle
