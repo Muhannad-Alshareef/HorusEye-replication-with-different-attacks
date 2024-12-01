@@ -1,0 +1,5 @@
+,robust_attack,abnormal_precision,abnormal_recall,normal_precision,normal_recall,support
+0,udp_mix_2.csv,0.127,0.241,0.914,0.83,109881
+0,tcp_mix_4.csv,0.433,1.0,1.0,0.83,109881
+0,udp_mix_4.csv,0.089,0.162,0.906,0.83,109881
+0,tcp_mix_2.csv,0.448,1.0,1.0,0.83,109881

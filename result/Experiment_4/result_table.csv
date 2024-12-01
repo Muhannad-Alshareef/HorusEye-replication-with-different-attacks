@@ -1,0 +1,2 @@
+,device_name,abnormal_precision,abnormal_recall,normal_precision,normal_recall,support
+0,all,0.045,0.315,0.979,0.829,109881

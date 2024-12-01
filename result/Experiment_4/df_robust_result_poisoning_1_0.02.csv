@@ -1,0 +1,2 @@
+,robust_attack,abnormal_precision,abnormal_recall,normal_precision,normal_recall,support
+0,mirai_router_filter-00.csv,0.068,0.48,0.984,0.835,109881
