@@ -1,8 +1,8 @@
-# HorusEye: Realtime IoT Malicious Traffic Detection Framework with Programmable Switches
-### Refer to the documentation file for the results and more details.
-### Original github page: https://github.com/vicTorKd/HorusEye
-### New attack dataset link: https://drive.google.com/file/d/1cmBi8CsCUiSBfJw6zDzF2ueNpdqR9OZb/view?usp=sharing
-### more information about the paper can be found following the link: https://www.usenix.org/conference/usenixsecurity23/presentation/dong-yutao
+# Replication of HorusEye: Realtime IoT Malicious Traffic Detection Framework with Programmable Switches with a different attack dataset
+#### Refer to the documentation file for the results and more details.
+#### Original github page: https://github.com/vicTorKd/HorusEye
+#### New attack dataset link: https://drive.google.com/file/d/1cmBi8CsCUiSBfJw6zDzF2ueNpdqR9OZb/view?usp=sharing
+#### more information about the paper can be found following the link: https://www.usenix.org/conference/usenixsecurity23/presentation/dong-yutao
 
 ## Background
 The ever growing volume of IoT traffic brings challenges to IoT anomaly detection systems. Existing anomaly detection systems perform all traffic detection on the control plane, which struggles to scale to the growing rates of traffic. In this paper, we propose HorusEye, a high throughput and accurate two-stage anomaly detection framework. In the first stage, preliminary burst-level anomaly detection is implemented on the data plane to exploit its high-throughput capability (e.g., 100Gbps). We design an algorithm that converts a trained iForest model into white list matching rules, and implement the first unsupervised model that can detect unseen attacks on the data plane. The suspicious traffic is then reported to the control plane for further investigation. To reduce the false-positive rate, the control plane carries out the second stage, where more thorough anomaly detection is performed over the reported suspicious traffic using flow-level features and a deep detection model. We implement a prototype of HorusEye and evaluate its performance through a comprehensive set of experiments. The experimental results illustrate that the data plane can detect 99% of the anomalies and offload 76% of the traffic from the control plane. Compared with the state-of-the-art schemes, our framework has superior throughput and detection performance.
