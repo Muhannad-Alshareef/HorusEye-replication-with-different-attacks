@@ -1,4 +1,4 @@
-# Replication of HorusEye: Realtime IoT Malicious Traffic Detection Framework with Programmable Switches with a different attack dataset
+# Replication of "HorusEye: Realtime IoT Malicious Traffic Detection Framework with Programmable Switches" with a different attack dataset
 #### Refer to the documentation file for the results and more details.
 #### Original github page: https://github.com/vicTorKd/HorusEye
 #### New attack dataset link: https://drive.google.com/file/d/1cmBi8CsCUiSBfJw6zDzF2ueNpdqR9OZb/view?usp=sharing
